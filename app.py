@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import nltk
 from nltk.corpus import stopwords
+nltk.download('wordnet')
+
 import string
 from nltk.stem.porter import PorterStemmer
 
